@@ -1,0 +1,28 @@
+#logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    align-items: baseline;
+}
+
+#header-img {
+    width: 150px;
+    height: auto;
+}
+
+#links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    #links {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
